@@ -7,21 +7,30 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p id="quiz">Quiz</p>
-    <h1 id="playerScore"> Score</h1>
-    <p id="question"></p>
-    <form action=""></form>
-    <input type="radio" class="optionA" name="options">
-    <label for="optionA">OptionA</label>
-    <br>
-    <input type="radio" class="optionB" name="options">
-    <label for="optionB">OptionB</label>
-    <br>
-    <input type="radio" class="optionC" name="options">
-    <label for="optionC">OptionC</label>
-    <br>
-    <input type="radio" class="optionD" name="options">
-    <label for="optionD">OptionD</label>
+    <div class="quizContainer" id="quiz">
+        <div class="quizHeader">
+            <h2 id="question"> Questions</h2>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" id="a" class="answer">
+                    <label for="a" id="aText">Answer A</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="b" class="answer">
+                    <label for="b" id="bText">Answer B</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="c" class="answer">
+                    <label for="c" id="cText">Answer C</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="d" class="answer">
+                    <label for="d" id="dText">Answer D</label>
+                </li>
+            </ul>
+        </div>
+        <button id="submit"> Submit</button>
+    </div>
 </body>
 <script src="script.js"></script>
 </html>

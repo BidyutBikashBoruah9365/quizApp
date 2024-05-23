@@ -1,26 +1,4 @@
 *{
-    background-color: rgb(38, 36, 36);
-}
-
-#quiz{
-    color: rgb(21, 255, 0);
-    display: flex;
-    justify-content: center;
-    font-size: 3rem;
-}
-
-#playerScore{
-    color: burlywood;
-    display: flex;
-    justify-content: center;
-}
-
-label{
-    color: rgb(204, 255, 0);
-    font-size: x-large;
-}
-
-input[type="radio"]{
-    display: flex;
-    justify-content: center;
+    background-color: rgb(29, 28, 28);
+    color: rgb(190, 167, 167);
 }
